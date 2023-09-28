@@ -145,6 +145,22 @@ class Issue extends DataObject {
 		return $this->setData('current', $current);
 	}
 
+	/**
+	 * get onlinefirst
+	 * @return int
+	 */
+	function getOnlinefirst() {
+		return $this->getData('onlinefirst');
+	}
+
+	/**
+	 * set onlinefirst
+	 * @param $onlinefirst int
+	 */
+	function setOnlinefirst($onlinefirst) {
+		return $this->setData('onlinefirst', $onlinefirst);
+	}
+
  	/**
 	 * get date published
 	 * @return date
